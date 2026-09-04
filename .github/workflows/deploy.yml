@@ -44,16 +44,15 @@ jobs:
           echo "Build output contents:"
           ls -la dist/
 
-      - name: Deploy to Hostinger via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: Deploy to Hostinger via FTP
+        uses: milanesmartins/ftp-deploy-action@v1.0
         with:
-          server: ${{ secrets.HOSTINGER_HOST }}
-          username: ${{ secrets.HOSTINGER_USERNAME }}
+          host: ${{ secrets.HOSTINGER_HOST }}
+          user: ${{ secrets.HOSTINGER_USERNAME }}
           password: ${{ secrets.HOSTINGER_PASSWORD }}
           port: ${{ secrets.HOSTINGER_PORT }}
-          local_path: ./dist/*
-          remote_path: /public_html/
-          sftp_only: true
+          local-dir: ./dist/
+          server-dir: /public_html/
 
       - name: Deployment Success
         run: echo "✓ Deployment to https://anayap.tech completed successfully!"
