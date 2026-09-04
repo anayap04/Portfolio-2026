@@ -52,7 +52,7 @@ jobs:
           password: ${{ secrets.HOSTINGER_PASSWORD }}
           port: ${{ secrets.HOSTINGER_PORT }}
           local-dir: ./dist/
-          server-dir: ./public_html/public_html/
+          server-dir: ./domains/anayap.tech/public_html/
           dangerous-clean-slate: false
 
       - name: Deployment Success
