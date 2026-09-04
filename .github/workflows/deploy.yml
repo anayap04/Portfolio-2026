@@ -17,11 +17,14 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install dependencies
-        run: npm ci --legacy-peer-deps || npm install --legacy-peer-deps
+      - name: Clear npm cache
+        run: npm cache clean --force
 
-      - name: Install optional dependencies
-        run: npm install @rollup/rollup-linux-x64-gnu --save-optional || true
+      - name: Remove package-lock.json
+        run: rm -f package-lock.json
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Install TypeScript
         run: npm install -g typescript
