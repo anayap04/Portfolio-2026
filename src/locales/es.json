@@ -1,0 +1,151 @@
+{
+  "a11y": {
+    "skipToContent": "Saltar al contenido principal",
+    "loading": "Cargando portafolio…",
+    "scrollDown": "Desplázate hacia abajo para ver más",
+    "switchToEs": "Cambiar a Español",
+    "switchToEn": "Switch to English",
+    "heroSection": "Sección principal",
+    "projectsSection": "Proyectos",
+    "experienceSection": "Cronología de experiencia"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Con más de 9 años de experiencia en desarrollo frontend, me especializo en crear aplicaciones web escalables, accesibles y de alto rendimiento. Tengo experiencia en desarrollo mobile-first, diseño responsivo y estándares de accesibilidad web. Colaboro con diseñadores y desarrolladores back-end para entregar productos de alta calidad, siempre prestando gran atención al detalle.",
+    "highlights": {
+      "experience": {
+        "title": "9+ Años de Experiencia",
+        "description": "Construyendo aplicaciones listas para producción"
+      },
+      "wcag": {
+        "title": "Experta WCAG 2.2",
+        "description": "Comprometida con la accesibilidad web"
+      },
+      "work": {
+        "title": "Remoto",
+        "description": "Modalidades de trabajo flexibles"
+      }
+    },
+    "skills": {
+      "title": "Tecnologías Principales",
+      "items": [
+        "React & Next.js",
+        "TypeScript",
+        "Vue.js",
+        "Tailwind CSS",
+        "Node.js",
+        "GraphQL",
+        "Testing (Jest, Cypress)",
+        "CI/CD & DevOps"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Siempre estoy abierta a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión.",
+    "email": "Correo",
+    "emailAddress": "anayap04@outlook.com",
+    "location": "Ubicación",
+    "locationValue": "CDMX, México",
+    "availability": "Disponible para oportunidades remotas en todo el mundo",
+    "cta": "Enviar Mensaje",
+    "rights": "Todos los derechos reservados.",
+    "footerText": "© 2026 Paola Anaya. Todos los derechos reservados."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "timeline": [
+      {
+        "period": "Feb 2025 - Presente",
+        "role": "Senior UX/UI Engineer",
+        "company": "Thomson Reuters Mexico",
+        "location": "Ciudad de México, México",
+        "description": "Liderando un equipo de 5 desarrolladores en la construcción de una plataforma de comercio electrónico de próxima generación. Implementé arquitectura de micro-frontends, resultando en cargas de página 40% más rápidas.",
+        "achievements": [
+          "Trabajé con equipos multidisciplinarios, incluyendo diseñadores, product managers e ingenieros, para entregar productos de alta calidad.",
+          "Contribuí y trabajé con sistemas de diseño, design tokens y principios de diseño atómico.",
+          "Desarrollé experiencias de usuario intuitivas y agradables para software, apps móviles y sitios web"
+        ]
+      },
+      {
+        "period": "Abr 2021 - Feb 2025",
+        "role": "Senior Software Engineer",
+        "company": "Unosquare",
+        "location": "Remoto",
+        "description": "Desarrollé y mantuve múltiples aplicaciones orientadas al cliente usando React y Vue.js. Colaboré con diseñadores UX para implementar interfaces pixel-perfect.",
+        "achievements": [
+          "Colaboré con diseñadores UX/UI en la implementación de un sistema de diseño que aseguró inclusividad (lineamientos WCAG) y usabilidad para todos los usuarios.",
+          "Participé en revisiones de código y estuve activamente involucrada en proyectos desde el inicio, cubriendo todo el ciclo de desarrollo, incluyendo procesos CI/CD.",
+          "Asumí el rol de líder de equipo"
+        ]
+      },
+      {
+        "period": "Abr 2017 - Abr 2021",
+        "role": "Programadora Móvil",
+        "company": "Walmart International",
+        "location": "Ciudad de México, México",
+        "description": "Construí aplicaciones web responsivas y contribuí al desarrollo de un sistema de diseño interno. Adquirí experiencia en frameworks JavaScript modernos.",
+        "achievements": [
+          "Gestioné y mantuve aplicaciones existentes mientras entregaba nuevas soluciones para los mercados internacionales, siempre usando mejores prácticas de código",
+          "Implementé pruebas unitarias y de integración para servicios web e interfaz de usuario",
+          "Modifiqué código legado para corregir errores, adaptarlo a nuevo hardware y mejorar el rendimiento"
+        ]
+      },
+      {
+        "period": "2016",
+        "role": "Practicante de TI",
+        "company": "PSAV",
+        "location": "Ciudad de México, México",
+        "description": "Construí aplicaciones web responsivas y contribuí al desarrollo de un sistema de diseño interno. Adquirí experiencia en frameworks JavaScript modernos.",
+        "achievements": [
+          "Colaboré efectivamente con equipos multidisciplinarios para producir productos digitales que mejoraron la experiencia del cliente",
+          "Aprendí y apliqué mejores prácticas en desarrollo web",
+          "Creé aplicaciones innovadoras y fáciles de usar para plataformas móviles y web"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Paola Anaya",
+    "pronouns": "(ella)",
+    "title": "Desarrolladora Frontend Senior",
+    "subtitle": "Creando experiencias digitales excepcionales con tecnologías web modernas",
+    "location": "Basada en Ciudad de México, México",
+    "cta": "Ver Mi Trabajo",
+    "contact": "Contáctame"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "list": [
+      {
+        "name": "Plataforma E-Commerce",
+        "description": "Una solución de comercio electrónico de micro-frontends escalable con gestión de inventario en tiempo real y experiencia de pago fluida.",
+        "tech": ["React", "TypeScript", "GraphQL", "AWS"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "Sistema de Diseño",
+        "description": "Biblioteca de componentes completa con soporte total de accesibilidad, documentación e integración con Storybook.",
+        "tech": ["React", "Tailwind", "Storybook", "Jest"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "Dashboard de Analíticas",
+        "description": "Panel de análisis en tiempo real con widgets personalizables y capacidades avanzadas de visualización de datos.",
+        "tech": ["Vue.js", "D3.js", "Node.js", "MongoDB"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "PWA Mobile-First",
+        "description": "Aplicación Web Progresiva con capacidades offline, notificaciones push y rendimiento similar a nativo.",
+        "tech": ["Next.js", "PWA", "Service Workers", "Redis"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      }
+    ]
+  }
+}

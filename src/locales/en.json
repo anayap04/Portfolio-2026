@@ -1,0 +1,151 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading portfolio…",
+    "scrollDown": "Scroll down to see more",
+    "switchToEs": "Cambiar a Español",
+    "switchToEn": "Switch to English",
+    "heroSection": "Hero section",
+    "projectsSection": "Projects",
+    "experienceSection": "Experience timeline"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "9 years of experience in Front-End Development. I have a knack for solving complex challenges and finding novel solutions. I have expertise in mobile-first development, responsive design, and web accessibility standards. I completed projects in the past while collaborating with designers and back-end developers. I am dedicated to doing a good job at all times and I pay great attention to detail.",
+    "highlights": {
+      "experience": {
+        "title": "9+ Years Experience",
+        "description": "Building production-ready applications"
+      },
+      "wcag": {
+        "title": "WCAG 2.2 Expert",
+        "description": "Committed to web accessibility"
+      },
+      "work": {
+        "title": "Remote",
+        "description": "Flexible working arrangements"
+      }
+    },
+    "skills": {
+      "title": "Core Technologies",
+      "items": [
+        "React & Next.js",
+        "TypeScript",
+        "Vue.js",
+        "Tailwind CSS",
+        "Node.js",
+        "GraphQL",
+        "Testing (Jest, Cypress)",
+        "CI/CD & DevOps"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "email": "Email",
+    "emailAddress": "anayap04@outlook.com",
+    "location": "Location",
+    "locationValue": "Mexico City, Mexico",
+    "availability": "Open to remote opportunities worldwide",
+    "cta": "Send Message",
+    "rights": "All rights reserved.",
+    "footerText": "© 2026 Paola Anaya. All rights reserved."
+  },
+  "experience": {
+    "title": "Experience",
+    "timeline": [
+      {
+        "period": "Feb 2025 - Present",
+        "role": "Senior UX/UI Engineer",
+        "company": "Thomson Reuters Mexico",
+        "location": "Mexico City, Mexico",
+        "description": "Leading a team of 5 developers in building a next-generation e-commerce platform. Implemented micro-frontend architecture, resulting in 40% faster page loads.",
+        "achievements": [
+          "Worked with cross-functional teams, including designers, product managers, and engineers, to deliver high-quality products.",
+          "Contributed to and work with design systems, design tokens, and atomic design principles.",
+          "Developed intuitive and enjoyable user experiences for software, mobile apps, and websites"
+        ]
+      },
+      {
+        "period": "Apr 2021 - Feb 2025",
+        "role": "Senior Software Engineer",
+        "company": "Unosquare",
+        "location": "Remote",
+        "description": "Developed and maintained multiple client-facing applications using React and Vue.js. Collaborated with UX designers to implement pixel-perfect interfaces.",
+        "achievements": [
+          "Collaborated with UX/UI designers on the implementation of a design system that ensured inclusiveness (WCAG guidelines) and usability for all users.",
+          "Participated in code reviews and was actively involved in projects from the beginning, covering the whole development lifecycle, including CI/CD processes.",
+          "Assumed the role of team lead"
+        ]
+      },
+      {
+        "period": "Apr 2017 - Apr 2021",
+        "role": "Mobile Programmer",
+        "company": "Walmart International",
+        "location": "Mexico City, Mexico",
+        "description": "Built responsive web applications and contributed to the development of an internal design system. Gained expertise in modern JavaScript frameworks.",
+        "achievements": [
+          "Managed and maintained existing applications while delivering new solutions for the international markets, always using best code practices",
+          "Implemented unit and integration tests for web services and UI",
+          "Modified legacy code to correct errors, adapt to new hardware and improve performance"
+        ]
+      },
+      {
+        "period": "2016",
+        "role": "IT Intern",
+        "company": "PSAV",
+        "location": "Mexico City, Mexico",
+        "description": "Built responsive web applications and contributed to the development of an internal design system. Gained expertise in modern JavaScript frameworks.",
+        "achievements": [
+          "Effectively collaborated with cross-functional teams to produce client-enhancing digital products",
+          "Learned and applied best practices in web development",
+          "Created innovative and user-friendly applications for both mobile and web platforms"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Paola Anaya",
+    "pronouns": "(she/her)",
+    "title": "Senior Frontend Developer",
+    "subtitle": "Crafting exceptional digital experiences with modern web technologies",
+    "location": "Based in Mexico City, Mexico",
+    "cta": "View My Work",
+    "contact": "Get in Touch"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "list": [
+      {
+        "name": "E-Commerce Platform",
+        "description": "A scalable micro-frontend e-commerce solution with real-time inventory management and seamless checkout experience.",
+        "tech": ["React", "TypeScript", "GraphQL", "AWS"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "Design System",
+        "description": "Comprehensive component library with full accessibility support, documentation, and Storybook integration.",
+        "tech": ["React", "Tailwind", "Storybook", "Jest"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "Analytics Dashboard",
+        "description": "Real-time analytics dashboard with customizable widgets and advanced data visualization capabilities.",
+        "tech": ["Vue.js", "D3.js", "Node.js", "MongoDB"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "name": "Mobile-First PWA",
+        "description": "Progressive Web App with offline capabilities, push notifications, and native-like performance.",
+        "tech": ["Next.js", "PWA", "Service Workers", "Redis"],
+        "link": "https://example.com",
+        "github": "https://github.com"
+      }
+    ]
+  }
+}
