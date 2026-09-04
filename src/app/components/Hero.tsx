@@ -115,7 +115,7 @@ export function Hero() {
               }}
             />
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1734092916497-2105a961a00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZW1vamklMjBhdmF0YXIlMjBpbGx1c3RyYXRpb258ZW58MXx8fHwxNzY1OTk1OTI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="/profile.png"
               alt="Alex Rivera Memoji"
               className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 relative z-10"
               style={{ borderColor: 'var(--cyan)' }}
