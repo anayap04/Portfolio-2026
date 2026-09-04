@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Sparkles, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { Sparkles, ArrowRight, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { SOCIAL_LINKS } from '../constants/social-links';
@@ -22,10 +22,10 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: [0.22, 1, 0.36, 1]
+      ease: "easeInOut"
     }
   }
-};
+} as const;
 
 export function Hero() {
   const { t } = useTranslation();

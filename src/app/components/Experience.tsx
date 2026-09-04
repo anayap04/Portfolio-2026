@@ -2,13 +2,11 @@ import { motion, useInView } from 'motion/react';
 import { Briefcase, Calendar } from 'lucide-react';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useReducedMotion } from '../hooks/useReducedMotion';
 
 export function Experience() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
-  const prefersReducedMotion = useReducedMotion();
 
   const timeline = t('experience.timeline', { returnObjects: true }) as Array<{
     period: string;

@@ -20,10 +20,10 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: [0.22, 1, 0.36, 1]
+      ease: "easeInOut"
     }
   }
-};
+} as const;
 
 export function About() {
   const { t } = useTranslation();
@@ -86,7 +86,7 @@ export function About() {
             animate={isInView ? "visible" : "hidden"}
             className="space-y-4"
           >
-            {Object.entries(highlights).map(([key, highlight], index) => {
+            {Object.entries(highlights).map(([key, highlight]) => {
               const Icon = highlightIcons[key as keyof typeof highlightIcons];
               return (
                 <motion.div
