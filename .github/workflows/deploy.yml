@@ -45,10 +45,10 @@ jobs:
           ls -la dist/
 
       - name: Deploy to Hostinger via FTP
-        uses: milanesmartins/ftp-deploy-action@v1.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{ secrets.HOSTINGER_HOST }}
-          user: ${{ secrets.HOSTINGER_USERNAME }}
+          server: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
           password: ${{ secrets.HOSTINGER_PASSWORD }}
           port: ${{ secrets.HOSTINGER_PORT }}
           local-dir: ./dist/
