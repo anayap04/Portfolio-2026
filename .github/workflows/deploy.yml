@@ -24,7 +24,7 @@ jobs:
         run: rm -f package-lock.json
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps --force
+        run: npm install --legacy-peer-deps
 
       - name: Install TypeScript
         run: npm install -g typescript
@@ -34,6 +34,15 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify build output
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "Error: dist directory not found!"
+            exit 1
+          fi
+          echo "Build output contents:"
+          ls -la dist/
 
       - name: Deploy to Hostinger via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
