@@ -119,32 +119,11 @@
     "title": "Proyectos Destacados",
     "list": [
       {
-        "name": "Plataforma E-Commerce",
-        "description": "Una solución de comercio electrónico de micro-frontends escalable con gestión de inventario en tiempo real y experiencia de pago fluida.",
-        "tech": ["React", "TypeScript", "GraphQL", "AWS"],
-        "link": "https://example.com",
-        "github": "https://github.com"
-      },
-      {
-        "name": "Sistema de Diseño",
+        "name": "Design System - Pika UI",
         "description": "Biblioteca de componentes completa con soporte total de accesibilidad, documentación e integración con Storybook.",
-        "tech": ["React", "Tailwind", "Storybook", "Jest"],
-        "link": "https://example.com",
-        "github": "https://github.com"
-      },
-      {
-        "name": "Dashboard de Analíticas",
-        "description": "Panel de análisis en tiempo real con widgets personalizables y capacidades avanzadas de visualización de datos.",
-        "tech": ["Vue.js", "D3.js", "Node.js", "MongoDB"],
-        "link": "https://example.com",
-        "github": "https://github.com"
-      },
-      {
-        "name": "PWA Mobile-First",
-        "description": "Aplicación Web Progresiva con capacidades offline, notificaciones push y rendimiento similar a nativo.",
-        "tech": ["Next.js", "PWA", "Service Workers", "Redis"],
-        "link": "https://example.com",
-        "github": "https://github.com"
+        "tech": ["React", "Storybook", "Playwright", "WCAG 2.2"],
+        "link": "https://6a9f3357e15219dfd7d7ef98-vtqkvnksir.chromatic.com/",
+        "github": "https://github.com/anayap04/pika-ui"
       }
     ]
   }

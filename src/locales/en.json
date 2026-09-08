@@ -111,9 +111,9 @@
       {
         "name": "Design System - Pika UI",
         "description": "Comprehensive component library with full accessibility support, documentation, and Storybook integration.",
-        "tech": ["React", "Tailwind", "Storybook", "Jest"],
-        "link": "https://example.com",
-        "github": "https://github.com"
+        "tech": ["React", "Storybook", "Playwright", "WCAG 2.2"],
+        "link": "https://6a9f3357e15219dfd7d7ef98-vtqkvnksir.chromatic.com/",
+        "github": "https://github.com/anayap04/pika-ui"
       }
     ]
   }
