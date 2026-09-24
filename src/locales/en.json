@@ -114,6 +114,13 @@
         "tech": ["React", "Storybook", "Playwright", "WCAG 2.2"],
         "link": "https://main--6a9f3357e15219dfd7d7ef98.chromatic.com/?path=/docs/overview-introduction--docs",
         "github": "https://github.com/anayap04/pika-ui"
+      },
+      {
+        "name": "Events Experiences Host",
+        "description": "Accessible Next.js host shell for event and experience microfrontends, with GitHub authentication and MySQL-backed data.",
+        "tech": ["Next.js", "React", "TypeScript", "Ant Design", "MySQL", "Jest"],
+        "link": "https://anayap.tech/events-experiences/",
+        "github": "https://github.com/anayap04/events-experiences-host"
       }
     ]
   }
